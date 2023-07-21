@@ -47,4 +47,8 @@ public class Constants {
             SourceStampConstants.V1_SOURCE_STAMP_BLOCK_ID;
     public static final int V2_SOURCE_STAMP_BLOCK_ID =
             SourceStampConstants.V2_SOURCE_STAMP_BLOCK_ID;
+    /**
+     * The maximum number of signers supported by the v1 and v2 APK Signature Schemes.
+     */
+    public static final int MAX_APK_SIGNERS = 10;
 }
